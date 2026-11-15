@@ -10,7 +10,7 @@ BLANK_PDF = HERE / "blank_form.pdf"
 TEMPLATE = HERE / "template.xlsx"
 
 st.set_page_config(page_title="M-PESA C2B Form Filler", page_icon="📝")
-st.title("📝Gift Mwanyumba M-PESA C2B application form filler")
+st.title("📝 Gift Mwanyumba M-PESA C2B application form filler")
 st.caption("Fill in the Excel sheet, upload it here, and download the completed PDF (pages 1 to 3).")
 
 st.download_button("⬇️ Download the blank Excel template", TEMPLATE.read_bytes(),
